@@ -1,0 +1,11 @@
+MODULE    = xlive.dll
+IMPORTS   = ws2_32
+
+EXTRADLLFLAGS = -mno-cygwin
+
+C_SRCS = \
+	main.c \
+	notify.c \
+	matchmaking.c
+
+
